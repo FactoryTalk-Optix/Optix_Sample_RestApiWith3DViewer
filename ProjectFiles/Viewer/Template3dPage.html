@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>3D Viewer</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+    <script type="module" src="./3dViewerApi.js"></script>
+    <style>
+	.box {display: flex;}
+	model-viewer {width: 1024px; height: 768px; margin:0, auto;}
+    </style>
+  </head>
+  <body>
+     <div class="box">
+		<div>
+    		<model-viewer id="pickMaterial" shadow-intensity="1" camera-controls touch-action="pan-y" disable-tap src="$File.glb" ar ar-modes="webxr scene-viewer" scale="0.001 0.001 0.001" alt="A Material Picking Example">
+</model-viewer>
+<script type="module" src="./ChangeColor.js"></script>
+
+        </div>
+      
+     </div>
+  </body>
+</html>

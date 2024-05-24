@@ -1,0 +1,11 @@
+Name: Model
+Id: g=f01fc575ec894e079d454792193fdf85
+Type: ModelCategoryFolder
+Children:
+- File: SpaceShips/SpaceShips.yaml
+- Name: Class
+  Id: g=46f6cb7c9644211a2bf166d8ebaeb00a
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- File: 'X-Wing_Sections/X-Wing_Sections.yaml'
