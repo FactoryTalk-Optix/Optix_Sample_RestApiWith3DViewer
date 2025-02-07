@@ -10,7 +10,6 @@ Children:
     Id: g=e17c10de666ab82c83d8b53470c175fa
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: EnforcePasswordHistory
     Id: g=7a1066373922b2da1503751257d333ed
     Type: BaseDataVariableType
@@ -20,7 +19,6 @@ Children:
     Id: g=c0a471a6cdacaec1a609d478a9689b25
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 0
   - Name: MinimumPasswordLength
     Id: g=0d9f7fc5175679148c0629a00d463188
     Type: BaseDataVariableType
@@ -63,7 +61,6 @@ Children:
     Id: g=01d4d57b36483928aae272d817e050f1
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: Localization
   Id: g=870e06d0c1d4c4bc303f309f2589e12c
   Type: PropertyGroup

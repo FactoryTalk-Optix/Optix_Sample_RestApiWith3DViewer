@@ -6,14 +6,11 @@ Children:
   Id: g=779af149b3fa4e1ab505e464fc37ca5f
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
 - Name: BottomWings
   Id: g=8119c827c67d471981cee2ea5f663ea8
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
 - Name: TopWings
   Id: g=5f57de30e09bdb568bb3b35551881c23
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0

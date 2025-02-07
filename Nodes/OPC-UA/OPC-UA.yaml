@@ -18,9 +18,7 @@ Children:
     Id: g=9e69e24c9bf4de7fc8a0cd017972e597
     Type: PropertyType
     DataType: MessageSecurityModeEnum
-    Value: 0
   - Name: MinimumSecurityPolicy
     Id: g=26de459ca94f9adf2d40aa7771ec6c7d
     Type: PropertyType
     DataType: SecurityPolicyEnum
-    Value: 0
