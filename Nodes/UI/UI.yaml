@@ -246,15 +246,35 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 18.0
+  - Name: RectangleStyles
+    Id: g=3721ec9c53bab1b91f393dcfe7165c7f
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=96cecc169d61aa40d5bfccd83e566dda
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Id: g=e818bd13d2ebed57338c7de43bb453bc
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Id: g=7175a6157459840ad028471c67a174a2
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Id: g=1e246892523da99c46034ea7d1a7de4c
+      Type: ScreenStyle
 - Name: NativePresentationEngine
   Id: g=63edd7e82c0b8b9089e2db91a55ad37a
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
   Children:
-  - Name: EnableVirtualKeyboard
+  - Name: VirtualKeyboard
     Id: g=21ba39203cc45db6dff51ed28c0b8ff8
     Type: BaseDataVariableType
-    DataType: Boolean
+    DataType: VirtualKeyboardEngineTypeEnum
   - Name: StartWindow
     Id: g=dc331077dfba8edca82d29478acb2b43
     Type: NodePointer
@@ -323,12 +343,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
-    - Name: BorderThickness
-      Id: g=759eb70d7b81b9b3ba2fe8b5d8b44274
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1.0
     - Name: HorizontalAlignment
       Id: g=723bce045684e0047527fab4be58917f
       Type: BaseVariableType
@@ -1044,12 +1058,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 120.0
-      - Name: BorderThickness
-        Id: g=382fe44d025d620a45e203d6f39cd1c8
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
       - Name: FillColor
         Id: g=17f2010b1d733a683f6c0090f338b70f
         Type: BaseDataVariableType
@@ -1475,3 +1483,13 @@ Children:
         Type: BaseVariableType
         DataType: Boolean
         AccessLevel: Read
+  - Name: VirtualKeyboard
+    Id: g=05d2ff551a603142a16363dfe5bfac05
+    Type: BaseDataVariableType
+    DataType: VirtualKeyboardEngineTypeEnum
+  - Name: MaxNumberOfConnections
+    Id: g=a6e4ac752c98899097851c253a995c53
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 15
+- File: Keyboards/Keyboards.yaml
