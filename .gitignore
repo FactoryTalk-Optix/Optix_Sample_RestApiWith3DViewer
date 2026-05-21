@@ -16,3 +16,6 @@ ProjectFiles/UserDefinedModule.xml
 !README.md
 
 !*.optixt
+
+!CONTRIBUTING.md
+!SECURITY.md
